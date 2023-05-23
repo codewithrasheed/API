@@ -1,0 +1,67 @@
+// console.log("Welcome to Back End Development")
+
+// const fs = require('fs');
+// const http = require('http')
+
+
+// const server = http.createServer((req,res)=>{
+//     console.log("Server is Listening on the Port 5000")
+//     console.log("Request URL", req.url)
+//     if(req.url== "/cources"){
+//         if(req.method == "GET"){
+//             res.write(JSON.stringify(a));
+//         }else if (req.method == "POST"){
+//             res.write(JSON.stringify(req.body))
+//         }
+//     } else if(req.url == '/users'){
+//         res.write(JSON.stringify(a));
+//     }
+//     res.end()
+// });
+
+// server.listen(5000);
+
+
+
+// fs.readdir('./', (err,dir)=>{
+//     console.log(dir)
+// })
+
+// fs.readFile("./abc.txt", "utf-8", (err,file) => {
+//     console.log(file)
+// })
+
+// fs.writeFile("./abc.txt", "New Messege from Server.js file", (err)=>{
+//     if(err){
+//         console.log(err)
+//     }else{
+//         console.log("Write Done")
+//     }
+// })
+
+// fs.writeFile("./abc.txt", "\nNew Text from Server.js file", (err)=>{
+//     if(err){
+//         console.log(err)
+//     }else{
+//         console.log("Write Done")
+//     }
+// })
+
+
+
+// fs.appendFile("./abc.txt", "\nNew Append Text", (err)=>{
+//     if(err){
+//         console.log(err)
+//     }else{
+//         console.log("Append Done")
+//     }
+// })
+// fs.appendFile("./abc.txt", "\nNew Append Message", (err)=>{
+//     if(err){
+//         console.log(err)
+//     }else{
+//         console.log("Append Done")
+//     }
+// })
+
+// import fs from 'fs'
